@@ -12,8 +12,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+//COMMENT
 
 public class MainActivity extends Activity {
+    //This is a test comments.
 	// Set your Image URL into a string
     String URL = "http://i1.ytimg.com/u/22TOQWJue006Lp6DB5QhDA/channels4_tablet_banner_low.jpg?v=52283c8a";
     ImageView image;
@@ -38,6 +40,8 @@ public class MainActivity extends Activity {
  
                 // Execute DownloadImage AsyncTask
                 new DownloadImage().execute(URL);
+
+                //Testing comment
             }
         });
     }
